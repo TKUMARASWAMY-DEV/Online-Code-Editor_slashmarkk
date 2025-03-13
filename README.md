@@ -111,27 +111,3 @@ You can view the live preview of the project [here](https://code-sync-live.verce
    # Pull Frontend Image
    docker pull sahilatahar/code-sync-client:latest
    ```
-
-3. **Run Docker Containers:**
-
-   ```bash
-   # Run Backend Container (Port 3000)
-   docker run -d -p 3000:3000 --name code-sync-server sahilatahar/code-sync-server:latest
-
-   # Run Frontend Container (Port 5173)
-   docker run -d -p 5173:5173 --name code-sync-client sahilatahar/code-sync-client:latest
-   ```
-
-4. **Access the application:**
-   ```bash
-   http://localhost:5173/
-   ```
-
-## 🔮 Features for Next Release
-
-- **Admin Permission:** Implement an admin permission system to manage user access levels and control over certain platform features.
-
-## 🤝 Contribute
-
-We welcome contributions to make Code Sync even better! Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
-
